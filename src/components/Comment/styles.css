@@ -1,0 +1,50 @@
+/* div major container */
+div#commentContainer {
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+/* div comment container */
+div#commentContent {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* user image (post owner) */
+div#userImg img{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #333333;
+}
+
+/* div of user image (comment owner) */
+div#userImg {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+/* span - author name */ 
+div#commentMessage span#commentUserName{
+  color: #121212;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* setting up comment box */
+div#commentContent div#commentMessage{
+  background: #333333;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #878787;
+  line-height: 20pt;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .13);
+}

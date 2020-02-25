@@ -1,0 +1,49 @@
+/* general container */
+div #container {
+  display: flex;
+  flex-direction: row;
+  background: #121212;
+  height: 64px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* facebook image container */
+div #faceImgContainer{
+  height: 100%;
+}
+
+/* facebook image */
+#facebookImg{
+  position:relative;
+  top:50%;
+  margin-top:-50px;
+
+}
+
+/* my profile container */
+div #myProfileContainer{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* setting up span myProfileContainer div */
+div #myProfileContainer span{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #A8A8A8;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+/* setting up profileIcon */
+#profileIcon{
+  color: #A8A8A8;
+  height: 38px;
+  width: 38px;
+  margin-left: 8px;
+}
+
